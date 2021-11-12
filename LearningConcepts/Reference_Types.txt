@@ -1,0 +1,4 @@
+Reference types are used to store complex objects
+  -- like date, mail message
+
+any type not listed as a primitive type is a reference type.
