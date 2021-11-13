@@ -1,0 +1,7 @@
+Arrays have fixed length.
+
+One dimensional arrays are used to store a list of objects.
+
+Multi-dimension arrays are used to store a matrix.
+
+Three-dimensional arrays can be used to store data for a cube.
