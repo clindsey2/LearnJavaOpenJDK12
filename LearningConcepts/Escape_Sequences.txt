@@ -1,0 +1,2 @@
+
+Special characters are sometimes needed to be included in the string.

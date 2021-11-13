@@ -58,7 +58,12 @@ public class Main {
         System.out.println(spaceyMessage.trim());
         System.out.println(spaceyMessage);
 
-
+        /* references characters  in strings */
+        String escMessage = "Hello \"Christopher\"";
+        System.out.println(escMessage);
+        // c:\Windows\...
+        String backslashMessage = "C:\\Windows\\...";
+        System.out.println(backslashMessage);
 
     }
 }
