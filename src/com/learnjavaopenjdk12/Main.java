@@ -6,6 +6,7 @@ import java.text.NumberFormat;
 import java.text.ParsePosition;
 import java.util.Arrays;
 import java.util.Date;
+import java.util.Scanner;
 
 public class Main {
 
@@ -181,6 +182,13 @@ public class Main {
         // instead we will use method chaining
         String resultPercent = NumberFormat.getPercentInstance().format(0.14);
         System.out.printf("print percent number as a string = %s\n", resultPercent);
+
+        // reading input
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Age: ");
+        byte age = scanner.nextByte();
+        System.out.println("You are " + age);
+
 
 
     }

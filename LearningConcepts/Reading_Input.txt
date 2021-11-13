@@ -1,0 +1,7 @@
+
+To read input from the user, you can use the Java class: Scanner,
+which is defined in the java.util package.
+
+System.in to read input from the user
+System.out to write output to the terminal
+
