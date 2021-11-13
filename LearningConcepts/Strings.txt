@@ -1,0 +1,34 @@
+
+  Since strings are a reference type, you would expect to use this to define the variable message
+        String message = new String("Hello World");
+
+  However, there is a shorter way to initialize string variables, see below:
+        String message = "Hello World";
+        String longerMessage = "Hello World" + "!!";
+        longerMessage.endsWith("!!");
+        /* System.out.println(longerMessage); */
+        System.out.println(longerMessage.startsWith("!!"));
+        System.out.println(longerMessage.endsWith("!!"));
+
+  To get the length of a string:
+        System.out.println(message.length());
+        System.out.println(longerMessage.length());
+
+  To check if/where an index/substring is found in a string:
+        System.out.println(longerMessage.indexOf("sky"));
+
+  To replace a part of the string, with something else.  But remember, the original
+     string object is immutable so that original string is not changed:
+        System.out.println(longerMessage.replace("!","*"));
+
+  You can confirm that this did not change the original string longerMessage.
+     /* since in Java Strings are immutable, we cannot change/mutate them */
+        System.out.println(longerMessage);
+        System.out.println(message.toLowerCase());
+        /* and again, the original String message is not changed */
+        System.out.println(message);
+
+  There is also a trim method to get rid of spaces at the beginning or ending of a string:
+        String spaceyMessage = "   Hello Again       ";
+        System.out.println(spaceyMessage.trim());
+        System.out.println(spaceyMessage);
