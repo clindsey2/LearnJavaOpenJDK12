@@ -2,3 +2,11 @@ Reference types are used to store complex objects
   -- like date, mail message
 
 any type not listed as a primitive type is a reference type.
+
+# NOTES on copying reference types versus primitive types:
+Reference type variables do not store values, but actually store the
+references (memory location) of the object in memory
+
+Reference types are copied by their references, whereas primitive types are
+  copied by their value.  That is, for primitive types, the values are completely
+   independent of each other
