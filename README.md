@@ -2,7 +2,7 @@
 Working Notes from: Java Tutorial for Beginners
 https://www.youtube.com/watch?v=eIrMbAQSU34
 
---left off at 1:12:35 of 2:30:47
+--left off at 1:17:10 of 2:30:47
 
 
 Other Mosh training videos:
