@@ -1,0 +1,7 @@
+
+using final with a variable makes it a constant; which cannot be changed later on.
+
+  final float pi = 3.14F;
+
+
+
