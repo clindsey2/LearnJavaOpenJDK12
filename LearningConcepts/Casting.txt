@@ -1,0 +1,10 @@
+
+Casting
+  there are two types of casting: implicit and explicit
+  Implicit Casting can only be done between compatible types
+
+  classes to cast of primitive types using 'wrapper classes'
+  Integer.parseInt("some string")
+
+
+Type conversion
