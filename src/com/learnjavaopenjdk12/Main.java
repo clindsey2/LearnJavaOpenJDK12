@@ -1,9 +1,7 @@
 package com.learnjavaopenjdk12;
 
 import java.awt.*;
-import java.sql.SQLOutput;
 import java.util.Date;
-import java.util.Locale;
 
 public class Main {
 
