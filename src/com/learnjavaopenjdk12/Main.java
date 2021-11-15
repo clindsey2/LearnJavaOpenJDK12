@@ -196,6 +196,8 @@ public class Main {
         //String name2 = scanner.nextLine().trim();
         System.out.println("You are " + name);
 
+        // use the MortgageCalculator class
+        MortgageCalculator mortgageCalculator = new MortgageCalculator();
 
 
     }
