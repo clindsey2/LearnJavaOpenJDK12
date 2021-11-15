@@ -183,11 +183,18 @@ public class Main {
         String resultPercent = NumberFormat.getPercentInstance().format(0.14);
         System.out.printf("print percent number as a string = %s\n", resultPercent);
 
-        // reading input
+        // reading input of a number
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Age: ");
+        System.out.print("Age: ");
         byte age = scanner.nextByte();
         System.out.println("You are " + age);
+        // reading input of a string
+        System.out.print("Name: ");
+        // String name = scanner.next();
+        String name = scanner.nextLine();
+        // Including the trim method to remove white spaces
+        //String name2 = scanner.nextLine().trim();
+        System.out.println("You are " + name);
 
 
 
