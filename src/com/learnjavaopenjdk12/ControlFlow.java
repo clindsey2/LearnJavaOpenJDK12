@@ -30,7 +30,8 @@ public class ControlFlow {
         if (temp > 30) {
             System.out.printf("IF temp:%s > 30; THEN: %b, It is a hot day\n", temp, temp > 30);
             System.out.println("Be sure to drink water");
-        } else if (temp >20 && temp <30)
+        }
+        else if (temp >20)
             System.out.printf("IF temp:%s >20 AND temp:%s <30; THEN %b, It is a beautiful day\n",
                     temp, temp, temp>20 && temp<30);
         else
