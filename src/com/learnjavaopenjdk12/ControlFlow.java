@@ -1,6 +1,8 @@
 package com.learnjavaopenjdk12;
 
 import javax.swing.*;
+import java.util.Locale;
+import java.util.Scanner;
 
 public class ControlFlow {
     public ControlFlow() {
@@ -72,6 +74,78 @@ public class ControlFlow {
                 System.out.println("You are a guest");
         }
 
+        // for loop - increment
+        for (int i = 0; i < 5; i++)
+            System.out.println("Hello World --- i = " + i);
+
+        // for loop - decrement
+        for (int i = 5; i > 0; i--)
+            System.out.println("Hello World --- i = " + i);
+
+        /*
+        // while loop - increment - iterations with counter variable
+        int i = 5;
+        while (i > 0) {
+            System.out.println("Hello World --- i = " + i);
+            i--;
+        }*/
+
+        // do while loop -- it gets executed at least once
+        // while loops are preferred
+        /*
+        String input2 = "";
+        do {
+            System.out.print("Input: ");
+            input2 = scanner.next().toLowerCase();
+            System.out.println(input2);
+        } while (!input2.equals("quit"));
+        */
+
+        /*
+        // while loop with input - end on quit
+        String input = "";
+        Scanner scanner = new Scanner(System.in);
+        while (!input.equals("quit")) {
+            System.out.print("Input: ");
+            input = scanner.next().toLowerCase();
+            if (!input.equals("quit"))
+                System.out.println(input);
+        }
+        */
+
+        // while loop with break and continue statement - end on quit
+        String input3 = "";
+        Scanner scanner = new Scanner(System.in);
+        //while (!input3.equals("quit")) {
+        // since we have a break statement, we can use while true
+        while (true) {
+            System.out.print("Input: ");
+            input3 = scanner.next().toLowerCase();
+            if (input3.equals("pass"))
+                continue;  // gives control to the beginning of the loop
+            if (input3.equals("quit"))
+                break;   // terminates the loop
+            System.out.println(input3);
+        }
+
+        // foreach loops are - used to review arrays or collections
+        String[] fruits = { "Apple", "Mango", "Orange"};
+
+        // now using a for-each loop
+        // for-each loops cannot reference the index and cannot be interated in decending order
+        for (String fruit : fruits)
+            System.out.printf("for-each loop: %s --", fruit);
+        System.out.println();
+
+        // for loop example - ascending order
+        for (int i = 0; i <fruits.length; i++)
+            System.out.printf("for loop: %s --",fruits[i]);
+        System.out.println();
+
+        // for loop example - descending order
+        for (int j = fruits.length-1; j >=0; j--)
+            System.out.printf("for loop: %s --",fruits[j]);
+        System.out.println();
 
     }
 }

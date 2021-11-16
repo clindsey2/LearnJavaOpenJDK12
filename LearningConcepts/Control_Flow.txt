@@ -4,5 +4,7 @@ Topics in this section:
   *) Logical Operators
   *) Conditional Statements
   *) Loops
+      For loops are better if the number of iterations is known before program execution
+      While loops are better if the number of iterations is not known; such as when the user enters the number
   *) Error Handling to the Mortgage Calculator
 

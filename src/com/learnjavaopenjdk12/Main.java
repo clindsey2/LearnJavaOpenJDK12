@@ -46,7 +46,9 @@ public class Main {
         // FizzBuzz fizzBuzz = new FizzBuzz();
 
         // use the ControlFlow class
-        ControlFlow controlFlow = new ControlFlow();
+        // ControlFlow controlFlow = new ControlFlow();
 
+        // use the MortgageCalculator2 class
+        MortgageCalculator2 mortgageCalculator2 = new MortgageCalculator2();
     }
 }
