@@ -36,5 +36,42 @@ public class ControlFlow {
                     temp, temp, temp>20 && temp<30);
         else
             System.out.println("It is a cold day");
+
+        // simplified if statements
+        int income = 120_000;
+        boolean hasHighIncome2 = (income > 100_000);
+        System.out.printf("Has High Income:%s = income>100_000? %b\n", income, hasHighIncome2);
+
+        // ternary operator
+        String className = (income > 100_000) ? "First" : "Economy";
+        System.out.println("Class of flight ticket = " + className);
+
+        // switch-case statement with string
+        String role = "admin";
+        switch (role)  {
+            case "admin":
+                System.out.println("You are an admin");
+                break;
+            case "moderator":
+                System.out.println("You are a moderator");
+                break;
+            default:
+                System.out.println("You are a guest");
+        }
+
+        // switch-case statement with int
+        int iRole = 11;
+        switch (iRole)  {
+            case 1:
+                System.out.println("You are an admin");
+                break;
+            case 11:
+                System.out.println("You are a moderator");
+                break;
+            default:
+                System.out.println("You are a guest");
+        }
+
+
     }
 }

@@ -1,0 +1,13 @@
+
+Send output to screen:
+ >> Number:
+Read a number:
+
+If number /5 = 0 and number /3 = 0
+   print FizzBuzz
+Else If number /5 = 0
+   print Fizz
+Else If number /3 = 0
+   print Buzz
+Else
+   print number

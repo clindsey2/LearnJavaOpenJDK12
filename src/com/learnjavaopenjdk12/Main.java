@@ -42,9 +42,11 @@ public class Main {
         // use the MortgageCalculator class
         // MortgageCalculator mortgageCalculator = new MortgageCalculator();
 
+        // use the FizzBuzz class
+        // FizzBuzz fizzBuzz = new FizzBuzz();
+
         // use the ControlFlow class
         ControlFlow controlFlow = new ControlFlow();
-
 
     }
 }
