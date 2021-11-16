@@ -11,7 +11,7 @@ public class MortgageCalculator {
     public MortgageCalculator() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Hello World");
+        System.out.println("Using the MortgageCalculator class");
         System.out.print("Principal: ");
         int principal = scanner.nextInt();
 
