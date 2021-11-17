@@ -2,7 +2,9 @@
 Topics in this section:
   *) Comparison Operators
   *) Logical Operators
+     and, or, not
   *) Conditional Statements
+     if, switch-case
   *) Loops
       For loops are better if the number of iterations is known before program execution
       While loops are better if the number of iterations is not known; such as when the user enters the number
